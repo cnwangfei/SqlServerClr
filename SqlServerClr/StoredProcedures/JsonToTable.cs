@@ -33,7 +33,11 @@ public partial class StoredProcedures
             }
             else
             {
-                columnArray = inClumnsStr.Value.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries);
+                string nameStr;
+                nameStr = inClumnsStr.Value;
+                // 去除字符串中的空格，回车，换行符，制表符
+                nameStr = nameStr.Replace("\n", "").Replace(" ", "").Replace("\t", "").Replace("\r", "");
+                columnArray = nameStr.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries);
             }
             /*
             if (columns == null && columns == SqlString.Null && columns.Value != null)
