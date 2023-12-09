@@ -54,6 +54,7 @@
   <ItemGroup>
     <Compile Include="helper\Base64Helper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserDefinedFunctions\FilterJsonStrWithJsonPath.cs" />
     <Compile Include="UserDefinedFunctions\QueryJsonStrWithJsonPath.cs" />
     <Compile Include="StoredProcedures\JsonToTable.cs" />
     <Compile Include="UserDefinedFunctions\Base64.cs" />
