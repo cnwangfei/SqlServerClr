@@ -58,6 +58,7 @@
     <Compile Include="UserDefinedFunctions\QueryJsonStrWithJsonPath.cs" />
     <Compile Include="StoredProcedures\JsonToTable.cs" />
     <Compile Include="UserDefinedFunctions\Base64.cs" />
+    <Compile Include="UserDefinedFunctions\UrlCode.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Test Scripts\Test.sql">

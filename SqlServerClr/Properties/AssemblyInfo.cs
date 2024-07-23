@@ -27,5 +27,5 @@ using System.Data.Sql;
 //
 // You can specify all the values or you can default the Revision and Build Numbers
 // by using the '*' as shown below:
-[assembly: AssemblyVersion("23.12.09.*")]
+[assembly: AssemblyVersion("24.07.23.*")]
 
